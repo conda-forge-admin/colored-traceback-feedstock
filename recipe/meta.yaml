@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools >=61.0
   run:
     - pygments
     - python >={{ python_min }}
